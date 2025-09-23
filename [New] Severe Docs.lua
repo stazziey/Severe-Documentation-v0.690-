@@ -1,3 +1,94 @@
+Added
+hastag
+addtag
+gettags
+cleartags
+luau.load
+removetag
+setattribute
+getattribute
+luau.compile
+getattributes
+Instance.declare
+memory.rtti
+memory.readbool
+memory.readbits
+memory.readi8
+memory.readi16
+memory.readi32
+memory.readi64
+memory.readu8
+memory.readu16
+memory.readu32
+memory.readu64
+memory.readf32
+memory.readf64
+memory.readstring
+memory.at
+memory.readbuffer
+memory.writebuffer
+memory.readvector
+crypt.random
+crypt.random_deterministic
+crypt.hash.sha256
+crypt.hash.sha512
+crypt.hash.blake2b
+crypt.pwhash
+crypt.pwhash_str
+crypt.pwhash_str_verify
+crypt.secretbox.seal
+crypt.secretbox.open
+crypt.aead.encrypt
+crypt.aead.decrypt
+crypt.box.keypair
+crypt.box.encrypt
+crypt.box.decrypt
+crypt.box.seal
+crypt.box.open
+crypt.box.beforenm
+crypt.sign.keypair
+crypt.sign.sign
+crypt.sign.open
+crypt.sign.detached
+crypt.sign.verify_detached
+crypt.base64.encode
+crypt.base64.decode
+crypt.hmac.sha256
+crypt.hmac.sha512
+crypt.hkdf_sha256
+crypt.hexadecimal.encode
+crypt.hexadecimal.decode
+polyline to drawing lib
+setrawmetatable
+getrawmetatable
+taskscheduler global
+description property for baseparts
+tamzen font
+LilitaOne font
+Changes
+renamed time to tick
+renamed checkfile to isfile
+renamed deletefile to delfile
+renamed deletefolder to delfolder
+faster print/warn functions
+3x performance  - optimized
+major lua environment shift
+renamed checkfolder to isfolder
+renamed SetNotification to send_notification
+renamed pointer_to_user_data to pointer_to_userdata
+removed pre-reg standalone functions
+removed getmemoryvalue/setmemoryvalue
+renamed websocket to WebsocketClient
+moved json to crypt [crypt.json]
+upgraded luau 0.679 -> 0.690
+removed cframelookat, lerpcframe, lerpvector3
+getpostion, getcframe etc now returns vector instead of table
+full index, newindex and __namecall handling for instances
+moved get_read_strength/set_read_strength/get_write_strength/set_write_strength to memory lib
+DISABLE ANTI VIRUS THEN OPEN UPGRADE BEFORE OPENING SOFTWARE
+Lua Changelog - ## [Current Date] - 2025-09-21
+
+
 # Severe Custom Lua — Documentation — v0.690
 
 ---
@@ -3937,5 +4028,6 @@ The document can be directly imported into Google Docs while preserving:
 - Heading structure and TOC generation
 - Code block formatting
 - List formatting
+
 
 - General document structure
